@@ -1,0 +1,18 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Times New Roman", Times, serif;
+}
+table{
+     align: center;
+}
+img{
+
+	filter: grayscale();
+        transition: all .2s ease-in-out;
+}
+
+img:hover{
+	filter: grayscale(0%);
+	transform: scale(1.1); ;
+}
